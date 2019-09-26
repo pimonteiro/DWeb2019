@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <header>
+        <key_name>TPC2 DAW</key_name>
+        <title>DTD para criação de PRs</title>
+        <subtitle>Teste</subtitle>
+        <begin_date>24 de Setembro</begin_date>
+        <end_date>1 de Outubro</end_date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <person>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git url="https://github.com/pimonteiro"/>
+        </person>
+    </workteam>
+    <abstract>
+        Gerador de PR's baseado num <link url="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm">exemplo</link> com <bold>base académica</bold> para a cadeira em questão, usando DTD's.
+        Para além do DTD, foi criado este documento para exemplificação.
+    </abstract>
+    <deliverables>
+        <files>
+            <file path="./PR.dtd">DTD usado neste relatório</file>
+            <file path="./PR.xml">XML do PR correspondente a este ficheiro.</file>
+            <file path="./arq.dtd">DTD do documento Arquiossitios.</file>
+            <file path="./xPath-querys.txt">Querys ciradas do exercício 6.</file>
+        </files>
+    </deliverables>
+</pr>
