@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT pr (header,workteam,abstract,deliverables?) >
+<!ELEMENT pr (metadata,workteam,abstract,deliverables?) >
 
-<!ELEMENT header (key_name,title,subtitle?,begin_date,end_date,supervisor) >
+<!ELEMENT metadata (key_name,title,subtitle?,begin_date,end_date,supervisor) >
 <!ELEMENT key_name (#PCDATA) >
 <!ELEMENT title (#PCDATA) >
 <!ELEMENT subtitle (#PCDATA) >
