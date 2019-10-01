@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT pr (header,workteam,abstract,deliverables) >
+<!ELEMENT pr (header,workteam,abstract,deliverables?) >
 
-<!ELEMENT header (key_name,title,subtitle+,begin_date,end_date,supervisor) >
+<!ELEMENT header (key_name,title,subtitle?,begin_date,end_date,supervisor) >
 <!ELEMENT key_name (#PCDATA) >
 <!ELEMENT title (#PCDATA) >
 <!ELEMENT subtitle (#PCDATA) >
@@ -9,28 +9,28 @@
 <!ELEMENT end_date (#PCDATA) >
 <!ELEMENT supervisor (#PCDATA) >
 <!ATTLIST supervisor
-            url CDATA #REQUIRED
+            homepage CDATA #IMPLIED
 >
 
 <!ELEMENT workteam (person+) >
-<!ELEMENT person (name,email,git+) >
+<!ELEMENT person (identifier,name,email,git?) >
 <!ELEMENT name (#PCDATA) >
 <!ELEMENT email (#PCDATA) >
-<!ELEMENT git EMPTY >
-<!ATTLIST git
+<!ELEMENT git (#PCDATA) >
+<!ELEMENT identifier (#PCDATA) >
+
+<!ELEMENT abstract (p+) >
+<!ELEMENT p (#PCDATA | b | i | u | xref)* >
+<!ELEMENT b (#PCDATA | i | u | xref)* >
+<!ELEMENT i (#PCDATA | b | u | xref)* >
+<!ELEMENT u (#PCDATA | b | i | xref)* >
+<!ELEMENT xref (#PCDATA) >
+<!ATTLIST xref
             url CDATA #REQUIRED
 >
 
-<!ELEMENT abstract (#PCDATA | bold | link)* >
-<!ELEMENT bold (#PCDATA) >
-<!ELEMENT link (#PCDATA) >
-<!ATTLIST link
-            url CDATA #REQUIRED
->
-
-<!ELEMENT deliverables (files) >
-<!ELEMENT files (file*) >
-<!ELEMENT file (#PCDATA) >
-<!ATTLIST file
+<!ELEMENT deliverables (deliverable+) >
+<!ELEMENT deliverable (#PCDATA) >
+<!ATTLIST deliverable
             path CDATA #REQUIRED
 >
