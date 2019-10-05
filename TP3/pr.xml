@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>XSL Schemes usados na Transformação de documentos XML</keyname>
+        <title>TP3 - XSL Schemes</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>1 de Novembro de 2019</bdate>
+        <edate>8 de Novembro de 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP desenvolvemos a habilidade de criar <i>Schemas</i> para específicos <b>XML</b>, neste caso, convertendo para <b>XHTML</b>(HTML sem falhas na estrutura que geralmente os browsers deixam passar)</p>
+        <p>Para além disso, foi também desenvolvido para um documento <b>XML</b> sobre <u>arquiossítios</u>.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML).</deliverable>
+        <deliverable path="pr.xhtml">Project Record (HTML)</deliverable>
+        <deliverable path="pr.xsl">XSLT Stylesheet file do Project Record (XSLT)</deliverable>
+        <deliverable path="arq.xsl">XSLT Stylesheet file dos arquiossitios (XSLT)</deliverable>
+    </deliverables>
+</pr>
