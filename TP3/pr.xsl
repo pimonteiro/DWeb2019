@@ -21,7 +21,7 @@
     
     <xsl:template match="metadata">
         <hr/>
-        <table>
+        <table class="w3-table w3-striped">
             <tr>
                 <td><b>KEY NAME</b></td>
                 <td><xsl:value-of select="./keyname"/></td>
@@ -36,7 +36,7 @@
             </tr>
             <tr>
                 <td><b>SUBTITLE</b></td>
-                <td><xsl:value-of select="./keyname"/></td>
+                <td><xsl:value-of select="./subtitle"/></td>
                 <td><b>SUPERVISOR</b></td>
                 <td>
                     <a>
@@ -70,7 +70,7 @@
         <hr/>
     </xsl:template>
     <xsl:template match="abstract">
-        
+        <xsl:apply-templates/>
         <hr/>
         <hr/>
     </xsl:template>
@@ -90,4 +90,25 @@
         </ul>
         <hr/>
     </xsl:template>
+    <xsl:template match="p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="i">
+        <i>
+            <xsl:value-of select="."/>
+        </i>
+    </xsl:template>
+    <xsl:template match="u">
+        <u>
+            <xsl:value-of select="."/>
+        </u>
+    </xsl:template>
+    <xsl:template match="b">
+        <b>
+            <xsl:value-of select="."/>
+        </b>
+    </xsl:template>
+    
 </xsl:stylesheet>

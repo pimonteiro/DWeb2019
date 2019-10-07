@@ -24,6 +24,8 @@
         <deliverable path="pr.xml">Project Record (XML).</deliverable>
         <deliverable path="pr.xhtml">Project Record (HTML)</deliverable>
         <deliverable path="pr.xsl">XSLT Stylesheet file do Project Record (XSLT)</deliverable>
+        <deliverable path="arq.xml">Arquiossitios (XML)</deliverable>
         <deliverable path="arq.xsl">XSLT Stylesheet file dos arquiossitios (XSLT)</deliverable>
+        <deliverable path="html/index.html">Website gerado pelo ARQ.XSL</deliverable>
     </deliverables>
 </pr>
