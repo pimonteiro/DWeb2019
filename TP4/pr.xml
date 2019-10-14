@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>NODEJS SERVER PROVIDER</keyname>
+        <title>TP4 - NodeJs Implementation of a WebService</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>8 de Novembro de 2019</bdate>
+        <edate>15 de Novembro de 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP desenvolvemos a habilidade de criar <i>micro serviços</i> em <b>NodeJs</b>. Neste exercício foi
+            requerido que fizessemos um serviço capaz de responder com o conteúdo de um artigo <b>n</b> de um dataset XML.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML).</deliverable>
+        <deliverable path="pr.xsl">XSLT Stylesheet file do Project Record (XSLT)</deliverable>
+        <deliverable path="server.js">Servidor para executar com NodeJs (JAVASCRIPT)</deliverable>
+        <deliverable path="404.html">Página de "file not found" (HTML)</deliverable>
+        <deliverable path="index.html">Index do servidor (HTML)</deliverable>
+        <deliverable path="arqueo/arq.xml">Arquiossitios (XML)</deliverable>
+        <deliverable path="arqueo/ar2html.xsl">Stylesheet responsável por converter XML em HTML (XLS)</deliverable>
+        <deliverable path="arqueo/xml-split.xsl">Stylesheet responsável por dividir o XML inicial em vários XML's (por artigo) (XLS)</deliverable>
+    </deliverables>
+</pr>
