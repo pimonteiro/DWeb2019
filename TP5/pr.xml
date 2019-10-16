@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>NODEJS SERVER SERVICE</keyname>
+        <title>TP4 - Implementação de um ToDo usando NodeJS</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>15 de Novembro de 2019</bdate>
+        <edate>2 de Novembro de 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP é pedido que se implemente uma página única de gestão de <i>ToDo's</i>, usando Nodejs. Neste temos de popular com a capacidade
+        de responder a certos pedidos HTTP e ignorar pedidos não reconhecidos.</p>
+        <p>Aqui, o utilizador pode adicionar um item à lista, ver a lista de items e remover um ou mais destes.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML).</deliverable>
+        <deliverable path="pr.html">Project Record (HTML)</deliverable>
+        <deliverable path="todo_server.js">Servidor para executar com NodeJs (JAVASCRIPT)</deliverable>
+        <deliverable path="todos.json">Base de Dados (JSON)</deliverable>
+        <deliverable path="package.json">Dependencia NPM (JSON)</deliverable>
+        <deliverable path="package-lock.json">Dependencia NPM (JSON)</deliverable>
+        <deliverable path="view/">Pasta com as template PUG para gerar o HTML (PASTA)</deliverable>
+        <deliverable path="resources/">Pasta recursos usados pelo servidor (PASTA)</deliverable>
+    </deliverables>
+</pr>

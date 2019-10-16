@@ -1,0 +1,30 @@
+extends layout
+block content
+    .w3-container
+        header.w3-container
+        h3 Adicionar um ToDo
+        .w3-container
+            form.w3-container(action='/addtodo' method='POST')
+                label Data Limite:
+                input.w3-input.w3-border.w3-light-grey(type="date", name="data")
+                label Descrição:
+                input.w3-input.w3-border.w3-light-grey(type="text", name="desc")
+                input.w3-button.w3-large.w3-circle.w3-xlarge.w3-ripple.w3-black(type="submit", value="+")
+    hr
+    hr
+    header.w3-container
+        h3 Lista de ToDo's
+        .w3-container
+            table.w3-table-all
+                tr
+                    th Data da Tarefa
+                    th Descrição
+                    th
+                - for(var x = 0; lista[x] != null; x++)
+                    tr
+                        td=lista[x].data
+                        td=lista[x].desc
+                        td
+                            form.w3-container(action='/remove' method='POST')
+                                input(type="hidden",name="id",value=x)
+                                input(type="submit", value="Remover")
