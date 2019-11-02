@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <header>
+        <key_name>TPC7 DAW</key_name>
+        <title>API Filmes</title>
+        <subtitle>Express e NodeJS</subtitle>
+        <begin_date>29 de Outubro</begin_date>
+        <end_date>5 de Novembro</end_date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <person>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git url="https://github.com/pimonteiro"/>
+        </person>
+    </workteam>
+    <abstract>
+        Simples API REST que responde a pedidos a uma base de dados sobre filmes. Permite adicionar,remover, atualizar e listar varios ou um alemento só.
+    </abstract>
+    <deliverables>
+        <files>
+            <file path="./filme">Past com o servidor.</file>
+            <file path="./pr.xml">XML do PR correspondente a este ficheiro.</file>
+            <file path="./pr.html">PR em HTML.</file>
+        </files>
+    </deliverables>
+</pr>
