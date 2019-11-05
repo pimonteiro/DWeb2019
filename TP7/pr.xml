@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pr>
-    <header>
-        <key_name>TPC7 DAW</key_name>
+    <metadata>
+        <keyname>TPC7 DAW</keyname>
         <title>API Filmes</title>
         <subtitle>Express e NodeJS</subtitle>
-        <begin_date>29 de Outubro</begin_date>
-        <end_date>5 de Novembro</end_date>
-        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
-    </header>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>29 de Outubro</bdate>
+        <edate>5 de Novembro</edate>
+    </metadata>
     <workteam>
-        <person>
+        <worker>
+            <identifier>a80229</identifier>
             <name>Filipe Monteiro</name>
             <email>a80229@alunos.uminho.pt</email>
-            <git url="https://github.com/pimonteiro"/>
-        </person>
+            <git>https://github.com/pimonteiro"</git>
+        </worker>
     </workteam>
     <abstract>
-        Simples API REST que responde a pedidos a uma base de dados sobre filmes. Permite adicionar,remover, atualizar e listar varios ou um alemento só.
+        <p>Simples API REST que responde a pedidos a uma base de dados sobre filmes. Permite adicionar,remover, atualizar e listar varios ou um alemento só.</p>
     </abstract>
     <deliverables>
-        <files>
-            <file path="./filme">Past com o servidor.</file>
-            <file path="./pr.xml">XML do PR correspondente a este ficheiro.</file>
-            <file path="./pr.html">PR em HTML.</file>
-        </files>
+            <deliverable path="./filme">Past com o servidor.</deliverable>
+            <deliverable path="./pr.xml">XML do PR correspondente a este ficheiro.</deliverable>
+            <deliverable path="./pr.html">PR em HTML.</deliverable>
     </deliverables>
 </pr>
