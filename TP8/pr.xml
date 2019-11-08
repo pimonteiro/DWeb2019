@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>NODEJS API WITH EXPRESS</keyname>
+        <title>TP8 - API para os Prêmios Nobel</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>5 de Novembro de 2019</bdate>
+        <edate>12 de Novembro de 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP desenvolvemos uma API usando Express, um módulo para NodeJS para tratar do lado do servidor.</p>
+        <p>Para isso, foi usado como tema um base dados sobre todos os vencedores de prêmios nobel até um certo ano.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML)</deliverable>
+        <deliverable path="pr.html">Project Record (HTML)</deliverable>
+        <deliverable path="nobels/">Pasta contendo o servidor (HTML)</deliverable>
+    </deliverables>
+</pr>
