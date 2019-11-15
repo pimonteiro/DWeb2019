@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>UTILITY MONGODB IMPORT DATABASE</keyname>
+        <title>TP9 - Utilitário para substituir o mongoimport</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>12 de Novembro de 2019</bdate>
+        <edate>19 de Novembro de 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP desenvolvemos um pequeno script capaz de importar um ficheiro JSON para a base de dados Mongo.</p>
+        <p>Com este utilitário deixamos de necessitar do programa <it>mongoimport</it> utilizado até ao momento.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML)</deliverable>
+        <deliverable path="pr.html">Project Record (HTML)</deliverable>
+        <deliverable path="utility.js">Programa (JS)</deliverable>
+    </deliverables>
+</pr>
