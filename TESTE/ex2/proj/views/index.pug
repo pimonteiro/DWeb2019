@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1 Homepage
+    .w3-container
+        h1 Lista de Entidades
+        table.w3-table-all
+            tr
+                th SIBLA
+                th Designação
+            each ent in lista
+                tr
+                    td=ent.sigla
+                    td
+                      a(href="http://localhost:3000/" + ent.id)=ent.designacao
+        address
+            a(href="http://localhost:3000/") Homepage

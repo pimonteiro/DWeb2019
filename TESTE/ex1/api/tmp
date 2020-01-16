@@ -1,0 +1,12 @@
+db.obras.aggregate([{$unwind: "$instrumentos.instrumento"},{$match: {instrumentos.instrumento.designacao: "Maestro"}},{$project:{"-id": 1}}])
+
+
+db.obras.aggregate([{$project: {"-id": 1, titulo: 1, partituras: {$sum: {$size : "$instrumentos.instrumento"}}}}])
+
+db.obras.aggregate([{$unwind: "$instrumentos.instrumento"},{$project: {count: {$sum: "$titulo"}}}])
+
+db.obras.aggregate([{$unwind: "$instrumentos.instrumento"},{$group: {_id: "$titulo", partituras: {$sum : 1}}}])
+
+
+
+db.obras.aggregate([{$unwind: "$instrumentos.instrumento"},{$group: {_id: "$instrumentos.instrumento", obra: {$first: "$titulo"}, index: {$first: "$_id"}}},{$match:{"_id.designacao": "Maestro"}}])

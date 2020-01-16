@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>DWEB2019::Teste::A80229</keyname>
+        <title>Teste Prático</title>
+        <subtitle>Teste da Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <bdate>16 de janeiro de 2020</bdate>
+        <edate>16 de janeiro de 2020</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>a80229</identifier>
+            <name>Filipe Pimenta Oliveira Monteiro</name>
+            <email>a80229@alunos.uminho.pt</email>
+            <git>https://github.com/pimonteiro</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            No primeiro exercicio foi pedido a criação de uma API de dados fornecidos num XML sobre músicas. Este documento foi
+            depois transformado em JSON usando o link (http://www.utilities-online.info/xmltojson/), assim como ajustar o ficheiro para ter apenas uma lista de objectos,
+            e por fim importado usando o comando:
+            mongoimport -d obras -c obras --jsonArray arquivo.json de forma a utilizar o Mongodb como forma de persistência.
+        </p>
+        <p>
+            No segundo exercicio foi pedido responder a umas questões.
+        </p>
+         <p>
+            Q: Quantas Entidades estão catalogadas? R: 546 entidades
+         </p>
+         <p>
+             Q: A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)? R: AP(Administração Pública) e ASF (Autoridades de supervisão e fiscalização)
+         </p>
+         <p>
+             Q: Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador? R: Processo 400.10.056
+         </p>
+         <p>
+            Q: De que processos é dona a entidade "Colégio Militar" (ent_CMil)? R: Processo 750.20.601
+         </p>
+        <p>
+            Neste foi pedido também a criação de uma aplicação que se alimenta de uma API de dados fornecida. Da API ela
+            retira todas as entidades e lista-as na homepage, com links para cada uma individualmente populada com as suas informacoes.
+            Dentro desta, existem links para mais informaçao na página original da API.
+        </p>
+        <p>
+
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Project Record (XML).</deliverable>
+        <deliverable path="ex1">Exercício Nº 1</deliverable>
+        <deliverable path="ex1/arquivo.json">XML convertido para JSON</deliverable>
+        <deliverable path="ex2">Exercício Nº 2</deliverable>
+    </deliverables>
+</pr>
