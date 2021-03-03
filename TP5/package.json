@@ -11,6 +11,6 @@
   "dependencies": {
     "jsonfile": "^5.0.0",
     "logger": "0.0.1",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   }
 }
